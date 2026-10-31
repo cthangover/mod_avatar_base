@@ -1,0 +1,23 @@
+{
+  "id": "avatar_base",
+  "name": "Avatar Engine",
+  "version": "1.0.0",
+  "author": "ct",
+  "description": "Reusable avatar definitions and independent preset state, with renderer-neutral composition for layered images and animated models.",
+  "category": "engine, library",
+  "sources": [
+    "src/**/*.cs"
+  ],
+  "test_sources": [
+    "tests/*.cs"
+  ],
+  "depends": [],
+  "test_suites": [
+    {
+      "id": "contracts",
+      "activate": [
+        "--itest=avatar_contracts"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "Kind": "avatar",
+  "Items": [
+    {
+      "Id": "avatar_contracts/sample",
+      "Renderer": "test",
+      "Groups": {
+        "eyes_state": {
+          "Default": "opened",
+          "Presets": {
+            "opened": {
+              "Values": {
+                "eye": 1
+              }
+            },
+            "closed": {
+              "Values": {
+                "eye": 0
+              }
+            }
+          }
+        }
+      }
+    }
+  ]
+}

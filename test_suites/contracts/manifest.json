@@ -1,0 +1,12 @@
+{
+  "id": "avatar_base__contracts",
+  "name": "Avatar resource contract tests",
+  "version": "1.0.0",
+  "author": "ct",
+  "depends": [
+    "avatar_base>=1"
+  ],
+  "test_sources": [
+    "tests/*.cs"
+  ]
+}
