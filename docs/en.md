@@ -12,7 +12,7 @@ integration are not implemented yet. Existing `first=` / `second=` dialog portra
 
 ## Resource format
 
-Content mods declare `depends: ["avatar_base>=1"]` (or `avatar_layers>=1` for layered images) and supply normal entity files, for example
+Content mods declare `depends: ["avatar_base>=0.1.0"]` (or `avatar_layers>=0.1.0` for layered images) and supply normal entity files, for example
 `avatars/marao.json`. `Kind: avatar` is registered by `AvatarDefinition`. Definitions use the
 standard entity resolver: folder/ZIP providers, overrides, `Extends` and patches work through
 that pipeline; the catalog does not parse files or maintain a second resource cache.

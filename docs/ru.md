@@ -16,7 +16,7 @@ AvatarFrame target = avatar.Resolve();
 AvatarState saved = avatar.CaptureState();
 ```
 
-Контентный мод зависит от `avatar_base>=1` и объявляет сущности `Kind: avatar`.
+Контентный мод зависит от `avatar_base>=0.1.0` и объявляет сущности `Kind: avatar`.
 У определения есть `Id`, `Renderer`, `BaseValues` и `Groups`. У группы — `Default`,
 `Priority`, `Presets`; у пресета — `Values`. Имена групп и пресетов произвольные,
 регистрозависимые. Значения пресетов — целевые привязки для конкретного рендера,
